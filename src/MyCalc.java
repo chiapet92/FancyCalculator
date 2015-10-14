@@ -56,6 +56,7 @@ public class MyCalc {
 		} catch (InputMismatchException e) {
 			//System.out.println();
 			System.out.println("Input Mismatch Exception");
+			keyboard = new Scanner(System.in);
 			return false;
 		}
 	}
